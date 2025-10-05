@@ -33,7 +33,7 @@ def start_cricket_iq():
     
     try:
         print("🚀 Launching CricketIQ Gradio app...")
-        subprocess.run([sys.executable, "cricket_gradio_app.py"], check=True)
+        subprocess.run([sys.executable, "cricket_adk_app.py"], check=True)
     except KeyboardInterrupt:
         print("\n👋 CricketIQ stopped by user")
     except Exception as e:
