@@ -31,7 +31,7 @@ def setup_cricket_iq():
     print(f"✅ Python {sys.version.split()[0]} detected")
     
     # Install dependencies
-    if not run_command("pip install -r requirements.txt", "Installing dependencies"):
+    if not run_command("python -m pip install -r requirements.txt", "Installing dependencies"):
         return False
     
     # Create .env file if it doesn't exist
