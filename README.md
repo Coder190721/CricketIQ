@@ -50,13 +50,25 @@ export GOOGLE_API_KEY="your-google-api-key-here"
    - Create a new API key
    - Add it to your `.env` file
 
+### Quick Start
+
+**Easy Setup (Recommended)**
+```bash
+# 1. Setup environment
+python setup.py
+
+# 2. Edit .env file with your Google API key
+# 3. Start the application
+python start.py
+```
+
 ### Running the Agent
 
 #### Option 1: Web Interface (Recommended)
 ```bash
-python cricket_gradio_demo.py
+python cricket_gradio_app.py
 ```
-Then open your browser to `http://localhost:7860`
+Then open your browser to `http://127.0.0.1:7891`
 
 #### Option 2: Command Line Interface
 ```bash
