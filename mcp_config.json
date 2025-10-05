@@ -1,9 +1,0 @@
-{
-  "mcpServers": {
-    "cricket-stats": {
-      "command": "python3",
-      "args": ["cricket_mcp_server.py"],
-      "transport": "stdio"
-    }
-  }
-}

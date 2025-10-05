@@ -99,21 +99,11 @@ python start.py
 ```
 Then open your browser to `http://localhost:7892`
 
-#### Option 2: Legacy Gradio Interface
+#### Option 2: Direct ADK App
 ```bash
-python cricket_gradio_demo.py
+python cricket_adk_app.py
 ```
-Then open your browser to `http://localhost:7891`
-
-#### Option 3: Command Line Interface
-```bash
-python cricket_agent.py
-```
-
-#### Option 4: MCP Server Only
-```bash
-python cricket_mcp_server.py
-```
+Then open your browser to `http://localhost:7892`
 
 ## 🎯 Usage Examples
 
@@ -185,6 +175,11 @@ cricket_manager/                    # Root Agent Package
    - Multi-agent system web interface
    - Real-time agent status monitoring
    - Data source success rate display
+
+5. **Application Launcher** (`start.py`)
+   - Main entry point for the system
+   - Environment validation
+   - Automatic ADK app startup
 
 ### Data Sources & Fallback System
 
